@@ -1,0 +1,31 @@
+.bg-dark {
+  background: url("/src/img/bg_ferrari.png") fixed center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.bg-light {
+  background: url("/src/img/bg_mclaren.png") fixed center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.bg-redbull {
+  --tw-bg-opacity: 1;
+  background-color: rgba(3, 22, 39, var(--tw-bg-opacity));
+}
+
+.bg-mercedes {
+  --tw-bg-opacity: 1;
+  background-color: rgba(92, 230, 218, var(--tw-bg-opacity));
+}
+
+.bg-ferrari {
+  --tw-bg-opacity: 1;
+  background-color: rgba(255, 22, 22, var(--tw-bg-opacity));
+}
+
+colors_teste {
+  color: rgb(3, 22, 39);
+  color: rgb(255, 22, 22);
+  color: rgb(92, 230, 218);
+}
